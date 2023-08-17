@@ -1,0 +1,38 @@
+Step-by-Step Guide: Connecting an ESP32 Device to a Network
+
+Step 1: Set Up Arduino IDE
+
+Download and install Arduino IDE from the official website.
+Open Arduino IDE and go to "File" > "Preferences."
+Add the ESP32 board manager URL: https://dl.espressif.com/dl/package_esp32_index.json
+Click "OK" to save preferences.
+
+Step 2: Install ESP32 Board Package
+
+Navigate to "Tools" > "Board" > "Boards Manager..."
+Search for "esp32" and install the latest version.
+Select ESP32 board from "Tools" > "Board" menu.
+
+Step 3: Set Up Wi-Fi Credentials
+
+Open Arduino IDE and go to "File" > "Examples" > "ESP32" > "WiFi" > "WiFiScan."
+Modify code with your Wi-Fi SSID and password.
+Upload code to ESP32 board.
+
+Step 4: Establish Wi-Fi Connection
+
+Navigate to "File" > "Examples" > "ESP32" > "WiFi" > "WiFiClient."
+Modify code with your Wi-Fi credentials.
+Upload code to ESP32 board.
+
+Step 5: Verify Connection
+
+Open Serial Monitor (115200 baud rate) in Arduino IDE.
+Observe ESP32 connecting to Wi-Fi network and obtaining IP address.
+
+Step 6: Test with Basic Example
+
+Navigate to "File" > "Examples" > "ESP32" > "WiFi" > "WiFiClient" > "WiFiClientBasic."
+Upload code to ESP32 board.
+Open Serial Monitor and monitor ESP32's attempt to connect to a server.
+Congratulations! Your ESP32 device is now connected to the network, opening doors to various IoT applications.
