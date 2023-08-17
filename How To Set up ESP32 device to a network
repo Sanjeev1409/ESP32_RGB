@@ -35,4 +35,4 @@ Step 6: Test with Basic Example
 Navigate to "File" > "Examples" > "ESP32" > "WiFi" > "WiFiClient" > "WiFiClientBasic."
 Upload code to ESP32 board.
 Open Serial Monitor and monitor ESP32's attempt to connect to a server.
-Congratulations! Your ESP32 device is now connected to the network, opening doors to various IoT applications.
+Your ESP32 device is now connected to the network, opening doors to various IoT applications.
